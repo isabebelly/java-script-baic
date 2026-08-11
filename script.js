@@ -6,19 +6,21 @@ let subtraçao;
 let divvisao;
 let multiplicaçao;
 
-nome = prompt("Qual o seu nome?");
+function calculadora() {
 
-alert("Hello, seja bem vindo " + nome  );
+    nome = prompt("Qual o seu nome?");
 
- numero1= Number (prompt (" digite o primeiro numero"));
- numero2 =  Number (prompt (" digite o segundo numero")) ;
+    alert("Hello, seja bem vindo " + nome  );
 
- 
- soma = numero1 + numero2;
- subtraçao = numero1 - numero2;
- divisao = numero1 / numero2;
- multiplicaçao = numero1 * numero2
+    numero1= Number (prompt (" digite o primeiro numero"));
+    numero2 =  Number (prompt (" digite o segundo numero")) ;
+
+    
+    soma = numero1 + numero2;
+    subtraçao = numero1 - numero2;
+    divisao = numero1 / numero2;
+    multiplicaçao = numero1 * numero2;
 
 
- alert ("reultados: \n soma " + soma + "\n subtraçao " + subtraçao + "\n divisao "  +divisao +"\n multiplicaçao " + multiplicaçao    );
-
+    alert ("resultados: \n soma = " + soma + "\n subtraçao = " + subtraçao + "\n divisao = " + divisao + "\n multiplicaçao = " + multiplicaçao);
+}
